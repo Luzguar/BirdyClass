@@ -1,7 +1,6 @@
-@font-face {
-    font-family: "Open Sans";
-    src: url("https://fonts.googleapis.com/css?family=Open+Sans"),
-}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
 body {
     background: rgba(212, 212, 212, 0.466);
@@ -18,12 +17,38 @@ body {
     background: rgb(207, 207, 207);
 }
 
+.teacher_sign_up {
+    text-align: center;
+    cursor: pointer;
+    border-radius: 24px;
+    background: rgb(224, 55, 55);
+    border: none;
+    height: 50px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.student_sign_up {
+    text-align: center;
+    background: rgb(115, 115, 236);
+    cursor: pointer;
+    border-radius: 24px;
+    border: none;
+    height: 50px;
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .btn_bottom {
     background: rgba(235, 29, 29, 0.849);
     text-align: center;
     height: 30px;
     color: white;
     font-family: 'Open Sans';
+    margin-right: -8px;
+    margin-left: -8px;
 }
 
 *::selection {
@@ -34,15 +59,17 @@ body {
     background: rgb(85, 79, 79);
     color: rgb(255, 255, 255);
     font-family: 'Open Sans';
+    margin-right: -8px;
+    margin-left: -8px;
 }
 
 footer {
     text-align: center;
-    background: rgba(48, 48, 48, 0.918);
+    background: rgba(65, 65, 65, 0.719);
     color: white;
     font-family: 'Open Sans';
-    height: 250px;
-    position: absolute;
+    height: 120px;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
