@@ -7,9 +7,21 @@ body {
     background: rgba(212, 212, 212, 0.466);
 }
 
-div {
+.accueil_btn, .tutoriel_btn, .cours_btn, .profil_btn {
+    color: white;
+    transform: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.accueil_btn:hover, .tutoriel_btn:hover, .cours_btn:hover, .profil_btn:hover {
+    background: rgb(207, 207, 207);
+}
+
+.btn_bottom {
     background: rgba(235, 29, 29, 0.849);
     text-align: center;
+    height: 30px;
     color: white;
     font-family: 'Open Sans';
 }
@@ -30,5 +42,8 @@ footer {
     color: white;
     font-family: 'Open Sans';
     height: 250px;
-    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
